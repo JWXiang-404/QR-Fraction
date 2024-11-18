@@ -1,4 +1,6 @@
-# QR分解实现
+# QR分解
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 使用Python实现三种QR分解，以及解方程 $Ax = b$ 
 
@@ -110,6 +112,3 @@ python3 main.py -g
  [2.]
  [3.]]
 ```
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
