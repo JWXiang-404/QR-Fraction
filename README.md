@@ -1,6 +1,6 @@
 # QR分解实现
 
-使用Python实现三种QR分解，以及解方程$Ax = b$
+使用Python实现三种QR分解，以及解方程 $Ax = b$ 
 
 ## 1. 环境配置
 
@@ -19,7 +19,7 @@
 1. **下载源码**
 
 ```
-
+git clone https://github.com/JWXiang-404/QR-Fraction.git
 ```
 
 2. **安装conda环境以及python依赖**
@@ -29,17 +29,19 @@ conda create -n qr-frac python=3.8
 pip install -r requirements.txt
 ```
 
-3. **在`input/mA.csv`中输入矩阵$A$（支持浮点数）**
+3. **在`input/mA.csv`中输入矩阵 $A$（支持浮点数）**
 
 如：
-$$
+
+$$\begin{align\\*}
 A = 
 \begin{bmatrix}
-1 & 19 & -34 \\
--2 & -5 & 20 \\
+1 & 19 & -34 \\\\
+-2 & -5 & 20 \\\\
 2 & 8 & 37
 \end{bmatrix}
-$$
+\end{align\\*}$$
+
 `mA.csv`输入为：
 
 ```
@@ -48,17 +50,17 @@ $$
 2,8,37
 ```
 
-4. **在`input/bt.csv`中输入行向量$b^t$（支持浮点数）**
+4. **在`input/bt.csv`中输入行向量 $b^t$（支持浮点数）**
 
 如：
-$$
+$$\begin{align\\*}
 b = 
 \begin{bmatrix}
--63 \\
-48 \\
+-63 \\\\
+48 \\\\
 129
 \end{bmatrix}
-$$
+\begin{align\\*}$$
 `bt.csv`输入为：
 
 ```
