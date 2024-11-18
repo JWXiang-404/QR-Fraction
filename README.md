@@ -28,6 +28,7 @@ git clone https://github.com/JWXiang-404/QR-Fraction.git
 
 ```shell
 conda create -n qr-frac python=3.8
+conda activate qr-frac
 pip install -r requirements.txt
 ```
 
