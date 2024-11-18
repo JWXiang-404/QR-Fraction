@@ -4,7 +4,7 @@
 
 ## 1. 环境配置
 
-* **系统：**在`Ubuntu-22.04`下测试稳定；建议使用 `MiniConda/Anaconda` 虚拟环境
+* **系统：** 在`Ubuntu-22.04`下测试稳定；建议使用 `MiniConda/Anaconda` 虚拟环境
 
 * **第三方依赖：**
 
@@ -33,14 +33,14 @@ pip install -r requirements.txt
 
 如：
 
-$$\begin{align\\*}
+$$ \begin{align\\*}
 A = 
-\begin{bmatrix}
+\\begin{bmatrix}
 1 & 19 & -34 \\\\
 -2 & -5 & 20 \\\\
 2 & 8 & 37
-\end{bmatrix}
-\end{align\\*}$$
+\\end{bmatrix}
+\end{align\\*} $$
 
 `mA.csv`输入为：
 
