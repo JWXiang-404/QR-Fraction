@@ -31,7 +31,9 @@ pip install -r requirements.txt
 
 3. **在`input/mA.csv`中输入矩阵 $A$（支持浮点数）**
 
-如：
+$A$ 矩阵需满足： $rank(A) = n$ ，当使用Household方法时 (`-hh`选项)，矩阵 $A$ 需为一个 $n \times n$ 的方阵。
+
+例如，输入 $A$ 矩阵如下：
 
 $$
 A = 

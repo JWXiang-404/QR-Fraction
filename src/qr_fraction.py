@@ -13,7 +13,9 @@ class QRFractor:
         self.A_n = matrix_A.shape[1]
         self.op = op
         if self.A_m < self.A_n or self.A_n != np.linalg.matrix_rank(matrix_A):
-            raise ValueError(f"A矩阵不满足rank(A)=n")
+            raise ValueError(f"A矩阵不满足 rank(A)=n 条件")
+        elif op == 2 and self.A_m != self.A_n:
+            raise ValueError(f"使用Householder方法，A矩阵不满足 满秩方阵 条件")
 
     '''
     QR-fraction with Modefied Gram-Schmidt Algorithm
