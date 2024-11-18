@@ -53,14 +53,16 @@ $$
 4. **在`input/bt.csv`中输入行向量 $b^t$（支持浮点数）**
 
 如：
-$$\begin{align\\*}
+
+$$
 b = 
 \begin{bmatrix}
 -63 \\\\
 48 \\\\
 129
 \end{bmatrix}
-\begin{align\\*}$$
+$$
+
 `bt.csv`输入为：
 
 ```
