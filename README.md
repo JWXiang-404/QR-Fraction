@@ -33,14 +33,16 @@ pip install -r requirements.txt
 
 如：
 
-$$ \begin{align\\*}
+$$
+\begin{align\\*}
 A = 
-\\begin{bmatrix}
+\begin{bmatrix}
 1 & 19 & -34 \\\\
 -2 & -5 & 20 \\\\
 2 & 8 & 37
-\\end{bmatrix}
-\end{align\\*} $$
+\end{bmatrix}
+\end{align\\*}
+$$
 
 `mA.csv`输入为：
 
